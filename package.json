@@ -8,8 +8,9 @@
   "repository": "https://github.com/vanGalilea/react-native-testing.git",
   "author": "vanGalilea <me@stevegalili.com>",
   "license": "MIT",
-    "scripts": {
-      "test:unit:coverage": "yarn workspaces run test:unit:coverage",
-      "lint": "yarn workspaces run lint"
-    }
+  "scripts": {
+  "test:unit:coverage": "npm run test:unit:coverage --workspaces",
+  "lint": "npm run lint --workspaces"
+}
+
 }
